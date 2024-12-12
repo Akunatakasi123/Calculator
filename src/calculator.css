@@ -1,0 +1,69 @@
+body {
+  background-image: url("Starboy 2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.calculator {
+  position: relative;
+  width: 300px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Changed shadow color to red */
+  z-index: 1;
+}
+
+
+.display {
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  text-align: right;
+  background-color: #f0f0f0;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.title-container {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
